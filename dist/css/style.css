@@ -1,0 +1,47 @@
+body {
+    color: #fff;
+    background-color: #fff;
+}
+
+.register-page {
+	background:linear-gradient(to bottom,#72a57d 80%, #3d523e 100%);
+	background-attachment: fixed;
+}
+
+.btn-primary{
+	background-color:#3D6245;
+	border-color:#3D6245;
+}
+
+.btn-primary:hover,.btn-primary:active,.btn-primary.hover{background-color:#72a57d}
+
+.login-box-msg, .register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.login-box-body .form-control-feedback, .register-box-body .form-control-feedback {
+    color: #3D6245;
+}
+
+.login-logos {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.login-logo, .register-logo {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 2px solid #fff;
+}
