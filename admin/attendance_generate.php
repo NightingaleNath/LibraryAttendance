@@ -37,7 +37,7 @@
 	$from_title = date('M d, Y', strtotime($ex[0]));
 	$to_title = date('M d, Y', strtotime($ex[1]));
 
-	require_once('../tcpdf/tcpdf.php');  
+	require_once('../TCPDF-main/tcpdf.php');  
     $pdf = new TCPDF('P', PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);  
     $pdf->SetCreator(PDF_CREATOR);  
     $pdf->SetTitle('UMaT Library Attendance: '.$from_title.' - '.$to_title);  
